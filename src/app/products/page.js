@@ -130,7 +130,7 @@ const UpcomingProducts = () => {
                 <button
                   key={key}
                   onClick={() => setActiveTab(key)}
-                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
+                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 cursor-pointer ${
                     activeTab === key
                       ? 'bg-primary-600 text-white shadow-lg'
                       : 'bg-white text-secondary-700 hover:bg-primary-50 hover:text-primary-600'

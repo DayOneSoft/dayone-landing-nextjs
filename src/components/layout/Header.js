@@ -82,7 +82,7 @@ const Header = () => {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href, link.isPage)}
-                className="text-secondary-700 hover:text-primary-600 font-medium transition-colors duration-200"
+                className="text-secondary-700 hover:text-primary-600 font-medium transition-colors duration-200 cursor-pointer"
               >
                 {link.label}
               </button>
@@ -100,7 +100,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-secondary-700 hover:text-primary-600 focus:outline-none focus:text-primary-600"
+              className="text-secondary-700 hover:text-primary-600 focus:outline-none focus:text-primary-600 cursor-pointer"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMobileMenuOpen ? (
@@ -121,7 +121,7 @@ const Header = () => {
                 <button
                   key={link.href}
                   onClick={() => scrollToSection(link.href, link.isPage)}
-                  className="block w-full text-left px-3 py-2 text-secondary-700 hover:text-primary-600 hover:bg-secondary-50 rounded-md font-medium transition-colors duration-200"
+                  className="block w-full text-left px-3 py-2 text-secondary-700 hover:text-primary-600 hover:bg-secondary-50 rounded-md font-medium transition-colors duration-200 cursor-pointer"
                 >
                   {link.label}
                 </button>
