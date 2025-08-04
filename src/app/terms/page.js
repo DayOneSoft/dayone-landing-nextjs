@@ -22,7 +22,7 @@ const TermsOfService = () => {
               <section>
                 <h2 className="text-2xl font-semibold text-secondary-900 mt-8 mb-4">1. Acceptance of Terms</h2>
                 <p>
-                  By accessing and using DayOneSoft's services, you accept and agree to be bound by the terms and 
+                  By accessing and using DayOneSoft&apos;s services, you accept and agree to be bound by the terms and 
                   provision of this agreement. If you do not agree to abide by the above, please do not use this service.
                 </p>
               </section>
@@ -97,7 +97,7 @@ const TermsOfService = () => {
                 <h2 className="text-2xl font-semibold text-secondary-900 mt-8 mb-4">9. Changes to Terms</h2>
                 <p>
                   We reserve the right to modify these terms at any time. We will notify users of any material changes 
-                  by posting the new terms on this page and updating the "Last updated" date.
+                  by posting the new terms on this page and updating the &quot;Last updated&quot; date.
                 </p>
               </section>
               

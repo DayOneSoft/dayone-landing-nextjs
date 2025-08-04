@@ -57,7 +57,7 @@ const CookiePolicy = () => {
                     <h3 className="text-xl font-semibold text-secondary-800 mb-2">Analytics Cookies</h3>
                     <p>
                       These cookies help us understand how visitors interact with our website by collecting and reporting 
-                      information anonymously. This helps us improve our website's performance.
+                      information anonymously. This helps us improve our website&apos;s performance.
                     </p>
                   </div>
                   

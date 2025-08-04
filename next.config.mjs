@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Configure image domains for Next.js Image component
+  images: {
+    domains: ['images.unsplash.com'],
+  },
   // SEO optimizations
   async headers() {
     return [
@@ -31,9 +35,9 @@ const nextConfig = {
   compress: true,
   
   // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-  },
+  // experimental: {
+  //   optimizeCss: true,
+  // },
 };
 
 export default nextConfig;

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import Button from '../components/ui/Button';
@@ -188,9 +189,11 @@ export default function Home() {
             <div className="animate-fade-in">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl transform rotate-6 opacity-20"></div>
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   alt="Software Development"
+                  width={2070}
+                  height={1380}
                   className="relative rounded-2xl shadow-2xl w-full h-auto"
                 />
               </div>
@@ -262,11 +265,11 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <h2 id="about-heading" className="font-heading font-bold text-3xl sm:text-4xl lg:text-5xl text-secondary-900 mb-6">
-                  Your 'Day One' Technology Partner
+                  Your &apos;Day One&apos; Technology Partner
                 </h2>
               <p className="text-lg text-secondary-600 mb-6 leading-relaxed">
                 At DayOneSoft, we believe every great business deserves a fresh start with the right technology foundation. 
-                We're here from day one of your digital journey, whether you're launching a new venture or transforming an existing business.
+                We&apos;re here from day one of your digital journey, whether you&apos;re launching a new venture or transforming an existing business.
               </p>
               <p className="text-lg text-secondary-600 mb-8 leading-relaxed">
                 Our commitment goes beyond just building software – we build lasting partnerships. 
@@ -278,9 +281,11 @@ export default function Home() {
               </Button>
             </div>
             <div>
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 alt="Team collaboration"
+                width={2070}
+                height={1380}
                 className="rounded-2xl shadow-xl w-full h-auto"
               />
             </div>
@@ -298,7 +303,7 @@ export default function Home() {
               Ready to build on a better foundation?
             </h2>
           <p className="text-xl text-primary-100 mb-8">
-            Let's talk about how our technology can power your growth. The initial consultation is free, with no obligation.
+            Let&apos;s talk about how our technology can power your growth. The initial consultation is free, with no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="secondary" size="lg" className="bg-white text-primary-600 hover:bg-primary-50" onClick={scrollToContact}>
@@ -319,7 +324,7 @@ export default function Home() {
                 Get in Touch
               </h2>
             <p className="text-xl text-secondary-600">
-              Have questions? We'd love to hear from you.
+              Have questions? We&apos;d love to hear from you.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

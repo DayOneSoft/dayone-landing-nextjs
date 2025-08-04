@@ -43,29 +43,34 @@ Card.Header = ({ children, className = '', ...props }) => (
     {children}
   </div>
 );
+Card.Header.displayName = 'Card.Header';
 
 Card.Body = ({ children, className = '', ...props }) => (
   <div className={`${className}`} {...props}>
     {children}
   </div>
 );
+Card.Body.displayName = 'Card.Body';
 
 Card.Footer = ({ children, className = '', ...props }) => (
   <div className={`mt-4 pt-4 border-t border-secondary-200 ${className}`} {...props}>
     {children}
   </div>
 );
+Card.Footer.displayName = 'Card.Footer';
 
 Card.Title = ({ children, className = '', ...props }) => (
   <h3 className={`text-xl font-semibold text-secondary-900 mb-2 ${className}`} {...props}>
     {children}
   </h3>
 );
+Card.Title.displayName = 'Card.Title';
 
 Card.Description = ({ children, className = '', ...props }) => (
   <p className={`text-secondary-600 ${className}`} {...props}>
     {children}
   </p>
 );
+Card.Description.displayName = 'Card.Description';
 
 export default Card;

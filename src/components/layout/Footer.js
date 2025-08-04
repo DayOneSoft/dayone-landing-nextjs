@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
             <p className="text-secondary-300 mb-6 max-w-md">
               Empowering businesses with innovative software solutions. 
-              We build tomorrow's technology today.
+              We build tomorrow&apos;s technology today.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
